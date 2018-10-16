@@ -1,0 +1,90 @@
+<!--index.wxml-->
+<view class="container">
+  <view class='block'>
+    <view class='block-title'>
+      <view class='block-title-main'>使用量设置</view>
+      <view class='block-title-sub'>
+        您一般每个月使用多少通话和流量？
+      </view>
+    </view>
+
+    <view class='block-content'>
+
+      <view class='block-item column'>
+        <view class='item-row slider-box'>
+          <view class='item-title'>
+            <image class='item-title-icon' src='/static/images/phone.svg'></image>
+            每月平均通话时间
+          </view>
+          <view class='input-unit'>分钟</view>
+        </view>
+
+        <view class='item-row'>
+          <slider class='slider' max="11" step="1"></slider>
+          <view class='input-value'>
+            <input type='digit' value="{{50}}"></input>
+          </view>
+        </view>
+      </view>
+
+      <view class='block-item column'>
+        <view class='item-row slider-box'>
+          <view class='item-title'>
+            <image class='item-title-icon' src='/static/images/traffic.svg'></image>
+            每月平均流量使用
+          </view>
+          <view class='input-unit'>GB</view>
+        </view>
+
+        <view class='item-row'>
+          <slider class='slider' max="11" step="1"></slider>
+          <view class='input-value'>
+            <input type='digit' value="{{50}}"></input>
+          </view>
+        </view>
+      </view>
+
+      <view class='block-item column'>
+        <view class='item-row slider-box'>
+          <view class='item-title'>
+            <image class='item-title-icon' src='/static/images/briefcase.svg'></image>
+            每月在省外的时间
+          </view>
+          <view class='input-unit'>天</view>
+        </view>
+
+        <view class='item-row'>
+          <slider class='slider' max="11" step="1"></slider>
+          <view class='input-value'>
+            <input type='digit' value="{{50}}"></input>
+          </view>
+        </view>
+      </view>
+    </view>
+  </view>
+  <view class='block plan'>
+      <view class='block-title'>
+        <view class='block-title-main'>推荐套餐</view>
+        <view class='block-title-sub'>
+          以下是我根据您选择的使用量为您推荐的套餐
+        </view>
+      </view>
+
+      <view class="operator">
+        <view class='operator-item'>
+          <view class='operator-name'>
+            <image src='/static/images/traffic.svg' class='operator-icon'></image>
+            <text class="operator-text">联通</text>
+          </view>
+          <image src='/static/images/circle.svg' class='operator-icon'></image>
+        </view>
+        <view class='operator-item'>
+          <view class='operator-name'>
+            <image src='/static/images/traffic.svg' class='operator-icon'></image>
+            <text class="operator-text">联通</text>
+          </view>
+          <image src='/static/images/circle.svg' class='operator-icon'></image>
+        </view>
+      </view>
+    </view>
+</view>

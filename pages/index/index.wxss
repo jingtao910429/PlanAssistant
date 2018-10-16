@@ -1,0 +1,126 @@
+page {
+  min-height: 100%;
+}
+
+.container {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  box-sizing: border-box;
+}
+
+.block {
+  padding: 15px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.block-title {
+  margin-bottom: 20px;
+}
+
+.block-title-main {
+  font-size: 20px;
+}
+
+.block-title-sub {
+  margin: 15px 0;
+  font-size: 14px;
+  color: #666;
+}
+
+.block-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 15px 0;
+  padding: 15px;
+  border-radius: 8px;
+  background: #FFF;
+  box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.1)
+}
+
+.block-item.column {
+  flex-direction: column;
+}
+
+/*设置block-item最后一个元素距离底部为0*/
+.block-item:last-child {
+  margin-bottom: 0px;
+}
+
+.item-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+/*兄弟节点间距*/
+.item-row + .item-row {
+  margin-top: 10px;
+}
+
+.item-title {
+  font-size: 16px;
+}
+
+.item-title-icon {
+  width: 1.2em;
+  height: 1.2em;
+  vertical-align: middle;/*设置文本和图片对齐方式*/
+  margin-right: 10px;
+}
+
+.input-unit {
+  text-align: right;
+  font-size: 14px;
+  color: #999;
+}
+
+.slider-box {
+  flex-grow: 1;
+}
+
+.slider {
+  margin-left: 10px;
+  margin-right: 20px;
+  flex-grow: 1;
+}
+
+.operator {
+  display: flex;
+  justify-content: space-between;
+}
+
+.operator-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-grow: 1;
+  padding: 8px;
+  line-height: 16px;
+  font-size: 12px;
+  margin-bottom: 15px;
+  border-radius: 8px;
+  background: #FFF;
+  box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.operator-item + .operator-item {
+  margin-left: 10px;
+}
+
+.operator-text {
+  vertical-align: middle;
+}
+
+.operator-icon {
+  height: 1em;
+  width: 1.5em;
+  vertical-align: middle;
+}
+
+
