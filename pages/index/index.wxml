@@ -179,5 +179,12 @@
       </view>
     </view>
 
+    <view class='block footer'>
+    <view class='footer-image'>
+    <image src='https://prototype.im/badge@2x.png' mode='aspectFit'></image>
+    </view>
+    <view class='footer-text'>反馈问题</view>
+    </view>
+
   </view>
 </view>
