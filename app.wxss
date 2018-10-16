@@ -11,3 +11,22 @@ page {
   border-radius: 4px;
   padding: 2px;
 }
+
+.btn-group {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.btn {
+  flex-grow: 1;
+}
+
+.btn[type="primary"] {
+  color: #FFF;
+  background: #1ABCFE;
+}
+.btn[type="default"] {
+  color: #FFF;
+  background: #66C53A;
+}

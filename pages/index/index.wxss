@@ -149,4 +149,48 @@ page {
   vertical-align: middle;
 }
 
+.plan-fee {
+  font-size: 14px;
+  text-align: right;
+}
+
+.condition {
+  max-width: 15em;
+  font-size: 12px;
+  color: #FF983C;
+}
+
+.discounted-fee {
+  font-size: 12px;
+  color: #60D390;
+}
+
+.normal-fee {
+  margin-bottom: 5px;
+}
+
+.fee-value {
+  margin: 0px 5px;
+  color: #FF983C;
+}
+
+.fee-value-big {
+  font-size: 20px;
+}
+
+.fee-value.recommanded {
+  color: #29AE60;
+}
+
+
+.share-btn {
+  margin-top: 10px;
+  width: calc(50% - 15px);
+  font-size: 16px;
+  line-height: 2.4em;
+}
+
+.share-btn:not(:first-child){
+  margin-left: 15px;
+}
 

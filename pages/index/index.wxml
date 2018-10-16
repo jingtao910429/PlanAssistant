@@ -95,6 +95,89 @@
         </view>
         <view class='plan-partner-name'>网易</view>
       </view>
+      <view class='plan-fee'>
+        <view class='condition'>
+          满一年或预存200元
+        </view>
+        <view class='normal-fee'>
+          约
+          <text class='fee-value'>
+            <text class='fee-value-big'>1899</text>.00</text>
+          元／月
+        </view>
+        <view class='discounted-fee'>哔哩哔哩免流
+        </view>
+      </view>
     </view>
+
+    <view class='block-item'>
+      <view class='item-column'>
+        <view class='plan-name'>
+          <image src='/static/images/briefcase.svg' class='plan-rank-icon'></image>
+          <text>大白金卡</text>
+        </view>
+        <view class='plan-partner-name'>网易</view>
+      </view>
+      <view class='plan-fee'>
+        <view class='condition'>
+          满一年或预存200元
+        </view>
+        <view class='normal-fee'>
+          约
+          <text class='fee-value'>
+            <text class='fee-value-big'>1899</text>.00</text>
+          元／月
+        </view>
+        <view class='discounted-fee'>哔哩哔哩免流
+        </view>
+      </view>
+    </view>
+
+    <view class='block-item'>
+
+      <view class='item-column'>
+
+        <view class='item-row'>
+          <view class='sponsor-title'>将套餐助手分享给家人和朋友</view>
+        </view>
+
+        <view class='item-row'>
+          <view class='sponsor-title'>好东西当然要分享给大家！</view>
+        </view>
+
+        <view class='item-row'>
+          <view class='btn-group'>
+            <button class='btn share-btn' open-type='share' type='primary'>转发分享</button>
+            <button class='btn share-btn' type='default'>👯 朋友圈分享</button>
+          </view>
+        </view>
+
+      </view>
+
+    </view>
+
+    <view class='block-item'>
+      <view class='item-column'>
+        <view class='plan-name'>
+          <image src='/static/images/briefcase.svg' class='plan-rank-icon'></image>
+          <text>大白金卡</text>
+        </view>
+        <view class='plan-partner-name'>网易</view>
+      </view>
+      <view class='plan-fee'>
+        <view class='condition'>
+          满一年或预存200元
+        </view>
+        <view class='normal-fee'>
+          约
+          <text class='fee-value'>
+            <text class='fee-value-big'>1899</text>.00</text>
+          元／月
+        </view>
+        <view class='discounted-fee'>哔哩哔哩免流
+        </view>
+      </view>
+    </view>
+
   </view>
 </view>
