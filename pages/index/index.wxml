@@ -63,28 +63,38 @@
     </view>
   </view>
   <view class='block plan'>
-      <view class='block-title'>
-        <view class='block-title-main'>推荐套餐</view>
-        <view class='block-title-sub'>
-          以下是我根据您选择的使用量为您推荐的套餐
-        </view>
-      </view>
-
-      <view class="operator">
-        <view class='operator-item'>
-          <view class='operator-name'>
-            <image src='/static/images/traffic.svg' class='operator-icon'></image>
-            <text class="operator-text">联通</text>
-          </view>
-          <image src='/static/images/circle.svg' class='operator-icon'></image>
-        </view>
-        <view class='operator-item'>
-          <view class='operator-name'>
-            <image src='/static/images/traffic.svg' class='operator-icon'></image>
-            <text class="operator-text">联通</text>
-          </view>
-          <image src='/static/images/circle.svg' class='operator-icon'></image>
-        </view>
+    <view class='block-title'>
+      <view class='block-title-main'>推荐套餐</view>
+      <view class='block-title-sub'>
+        以下是我根据您选择的使用量为您推荐的套餐
       </view>
     </view>
+
+    <view class="operator">
+      <view class='operator-item'>
+        <view class='operator-name'>
+          <image src='/static/images/traffic.svg' class='operator-icon'></image>
+          <text class="operator-text">联通</text>
+        </view>
+        <image src='/static/images/circle.svg' class='operator-icon'></image>
+      </view>
+      <view class='operator-item'>
+        <view class='operator-name'>
+          <image src='/static/images/traffic.svg' class='operator-icon'></image>
+          <text class="operator-text">联通</text>
+        </view>
+        <image src='/static/images/circle.svg' class='operator-icon'></image>
+      </view>
+    </view>
+
+    <view class='block-item'>
+      <view class='item-column'>
+        <view class='plan-name'>
+          <image src='/static/images/briefcase.svg' class='plan-rank-icon'></image>
+          <text>大白金卡</text>
+        </view>
+        <view class='plan-partner-name'>网易</view>
+      </view>
+    </view>
+  </view>
 </view>

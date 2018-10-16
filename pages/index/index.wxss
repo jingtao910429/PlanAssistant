@@ -123,4 +123,30 @@ page {
   vertical-align: middle;
 }
 
+.item-column {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-self: stretch;
+  flex-grow: 1
+}
+
+.plan-name text {
+  line-height: 1.5em;
+  vertical-align: middle;
+}
+
+.plan-partner-name {
+  margin-top: 10px;
+  font-size: 12px;
+  color: #666;
+}
+
+.plan-rank-icon {
+  margin-right: 10px;
+  height: 1.5em;
+  width: 1.2em;
+  vertical-align: middle;
+}
+
 
