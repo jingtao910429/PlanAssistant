@@ -1,0 +1,13 @@
+<view class='container'>
+  <view class='block'>
+    <view class='block-row'>
+      <view class='block-title'>
+        <text>大王卡</text>
+        <text class='block-subtitle'>满一年或预存200元</text>
+      </view>
+    </view>
+    <view class='block-row'>
+    </view>
+    <view class='block-divider'></view>
+  </view>
+</view>

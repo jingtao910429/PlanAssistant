@@ -87,7 +87,7 @@
       </view>
     </view>
 
-    <view class='block-item'>
+    <view class='block-item' data-index="{{1}}" data-type='great' bindtap='goDetail'>
       <view class='item-column'>
         <view class='plan-name'>
           <image src='/static/images/briefcase.svg' class='plan-rank-icon'></image>
@@ -110,7 +110,7 @@
       </view>
     </view>
 
-    <view class='block-item'>
+    <view class='block-item' data-index="{{1}}" data-type='good' bindtap='goDetail'>
       <view class='item-column'>
         <view class='plan-name'>
           <image src='/static/images/briefcase.svg' class='plan-rank-icon'></image>
@@ -156,10 +156,9 @@
 
     </view>
 
-    <view class='block-item'>
+    <view class='block-item' data-index="{{1}}" data-type='other' bindtap='goDetail'>
       <view class='item-column'>
         <view class='plan-name'>
-          <image src='/static/images/briefcase.svg' class='plan-rank-icon'></image>
           <text>大白金卡</text>
         </view>
         <view class='plan-partner-name'>网易</view>
